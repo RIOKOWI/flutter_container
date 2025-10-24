@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'DelRio',
+      title: 'tugas week 5',
       home: Home(),
     );
   }
@@ -35,7 +35,6 @@ class Home extends StatelessWidget {
             ),
             
             body: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
                   height: 200,
