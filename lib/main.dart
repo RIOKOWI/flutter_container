@@ -33,14 +33,9 @@ class Home extends StatelessWidget {
                 SizedBox(width: 10,),
               ],
             ),
-            body: SingleChildScrollView(
-              child: Container(
-                padding: const EdgeInsets.all(20.0),
-                child: const Column(
-                  children: [],
-                ),
-              ),
-            ),
+            body: Container(
+              child: Text('ini di dalam container'),
+            )
           );
   }
 }
