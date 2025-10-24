@@ -33,12 +33,23 @@ class Home extends StatelessWidget {
                 SizedBox(width: 10,),
               ],
             ),
+            
             body: Container(
+              // margin: EdgeInsets.only(top: 10), margin atas aja
+              margin: EdgeInsets.all(10),
               alignment: Alignment.center,
               // width: 100,
-              // height: 100,
+              // height: double.infinity,
               color: Colors.amber,
-              child: Text('ini di dalam container'),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text('text', 
+                  style: TextStyle(
+                    fontSize: 10.5
+                    ),)
+                ],
+              ),
             )
           );
   }
