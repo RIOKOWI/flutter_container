@@ -34,52 +34,55 @@ class Home extends StatelessWidget {
               ],
             ),
             
-            body: Column(
-              children: [
-                Container(
-                  height: 200,
-                  width: 200,
-                  margin: EdgeInsets.only(top: 10),
-                  decoration: BoxDecoration(
-                    color: Colors.yellow,
-                    borderRadius: BorderRadius.circular(10),
-                    gradient: LinearGradient(
-                      begin: Alignment.topRight,
-                      end: Alignment.bottomLeft,
-                      colors: [
-                        Colors.blue,
-                        Colors.green,
-                      ],
+            body: Center(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Container(
+                    height: 200,
+                    width: 200,
+                    margin: EdgeInsets.only(top: 10),
+                    decoration: BoxDecoration(
+                      color: Colors.yellow,
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                        begin: Alignment.topRight,
+                        end: Alignment.bottomLeft,
+                        colors: [
+                          Colors.blue,
+                          Colors.green,
+                        ],
+                      ),
+                      border: Border.all(
+                        color: Colors.brown,
+                        width: 2
+                      )
                     ),
-                    border: Border.all(
-                      color: Colors.brown,
-                      width: 2
-                    )
                   ),
-                ),
-
-                Container(
-                  height: 200,
-                  width: 200,
-                  margin: EdgeInsets.only(top: 10),
-                  decoration: BoxDecoration(
-                    color: Colors.yellow,
-                    borderRadius: BorderRadius.circular(10),
-                    gradient: LinearGradient(
-                      begin: Alignment.centerLeft,
-                      end: Alignment.bottomLeft,
-                      colors: [
-                        Colors.blue,
-                        Colors.green,
-                      ],
+              
+                  Container(
+                    height: 200,
+                    width: 200,
+                    margin: EdgeInsets.only(top: 10),
+                    decoration: BoxDecoration(
+                      color: Colors.yellow,
+                      borderRadius: BorderRadius.circular(10),
+                      gradient: LinearGradient(
+                        begin: Alignment.centerLeft,
+                        end: Alignment.bottomLeft,
+                        colors: [
+                          Colors.blue,
+                          Colors.green,
+                        ],
+                      ),
+                      border: Border.all(
+                        color: Colors.brown,
+                        width: 2
+                      )
                     ),
-                    border: Border.all(
-                      color: Colors.brown,
-                      width: 2
-                    )
-                  ),
-                )
-              ],
+                  )
+                ],
+              ),
             )
           );
   }
