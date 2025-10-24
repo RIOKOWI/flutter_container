@@ -40,7 +40,7 @@ class Home extends StatelessWidget {
                 Container(
                   height: 200,
                   width: 200,
-                  margin: EdgeInsets.all(10),
+                  margin: EdgeInsets.only(top: 10),
                   decoration: BoxDecoration(
                     color: Colors.yellow,
                     borderRadius: BorderRadius.circular(10),
@@ -62,12 +62,12 @@ class Home extends StatelessWidget {
                 Container(
                   height: 200,
                   width: 200,
-                  margin: EdgeInsets.all(10),
+                  margin: EdgeInsets.only(top: 10),
                   decoration: BoxDecoration(
                     color: Colors.yellow,
                     borderRadius: BorderRadius.circular(10),
                     gradient: LinearGradient(
-                      begin: Alignment.topRight,
+                      begin: Alignment.centerLeft,
                       end: Alignment.bottomLeft,
                       colors: [
                         Colors.blue,
