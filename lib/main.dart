@@ -34,24 +34,53 @@ class Home extends StatelessWidget {
               ],
             ),
             
-            body: Container(
-              margin: EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: Colors.yellow,
-                borderRadius: BorderRadius.circular(10),
-                gradient: LinearGradient(
-                  begin: Alignment.topRight,
-                  end: Alignment.bottomLeft,
-                  colors: [
-                    Colors.blue,
-                    Colors.green,
-                  ],
+            body: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Container(
+                  height: 200,
+                  width: 200,
+                  margin: EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: Colors.yellow,
+                    borderRadius: BorderRadius.circular(10),
+                    gradient: LinearGradient(
+                      begin: Alignment.topRight,
+                      end: Alignment.bottomLeft,
+                      colors: [
+                        Colors.blue,
+                        Colors.green,
+                      ],
+                    ),
+                    border: Border.all(
+                      color: Colors.brown,
+                      width: 2
+                    )
+                  ),
                 ),
-                border: Border.all(
-                  color: Colors.brown,
-                  width: 2
+
+                Container(
+                  height: 200,
+                  width: 200,
+                  margin: EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: Colors.yellow,
+                    borderRadius: BorderRadius.circular(10),
+                    gradient: LinearGradient(
+                      begin: Alignment.topRight,
+                      end: Alignment.bottomLeft,
+                      colors: [
+                        Colors.blue,
+                        Colors.green,
+                      ],
+                    ),
+                    border: Border.all(
+                      color: Colors.brown,
+                      width: 2
+                    )
+                  ),
                 )
-              ),
+              ],
             )
           );
   }
