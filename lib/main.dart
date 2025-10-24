@@ -35,20 +35,11 @@ class Home extends StatelessWidget {
             ),
             
             body: Container(
-              // margin: EdgeInsets.only(top: 10), margin atas aja
               margin: EdgeInsets.all(10),
-              alignment: Alignment.center,
-              // width: 100,
-              // height: double.infinity,
-              color: Colors.amber,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text('text', 
-                  style: TextStyle(
-                    fontSize: 10.5
-                    ),)
-                ],
+              decoration: BoxDecoration(
+                color: Colors.yellow,
+                borderRadius: BorderRadius.circular(10),
+                
               ),
             )
           );
