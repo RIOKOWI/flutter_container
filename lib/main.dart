@@ -34,6 +34,10 @@ class Home extends StatelessWidget {
               ],
             ),
             body: Container(
+              alignment: Alignment.center,
+              // width: 100,
+              // height: 100,
+              color: Colors.amber,
               child: Text('ini di dalam container'),
             )
           );
