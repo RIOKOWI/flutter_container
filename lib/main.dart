@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_container/main.dart';
 
 void main(){
   runApp(MyApp());
@@ -26,8 +25,13 @@ class Home extends StatelessWidget {
     return Scaffold(
             appBar: AppBar(
               title: const Text("Dashboard"),
-              actions: const [],
               backgroundColor: Colors.red,
+              actions: [
+                Icon(Icons.abc),
+                SizedBox(width: 10,),
+                Icon(Icons.place),
+                SizedBox(width: 10,),
+              ],
             ),
             body: SingleChildScrollView(
               child: Container(
