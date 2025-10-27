@@ -63,13 +63,9 @@ class Home extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.yellow,
                       borderRadius: BorderRadius.circular(10),
-                      gradient: LinearGradient(
-                        begin: Alignment.centerLeft,
-                        end: Alignment.bottomLeft,
-                        colors: [
-                          Colors.blue,
-                          Colors.green,
-                        ],
+                      image: DecorationImage(
+                        image: AssetImage("assets/images/cungpruy.jpg"),
+                        fit: BoxFit.cover,
                       ),
                       border: Border.all(
                         color: Colors.brown,
