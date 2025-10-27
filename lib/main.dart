@@ -47,6 +47,7 @@ class Home extends StatelessWidget {
                       shape: BoxShape.circle,
                       image: DecorationImage(
                         image: AssetImage("assets/images/cungpruy.jpg"),
+                        fit: BoxFit.cover,
                       ),
                       border: Border.all(
                         color: Colors.brown,
