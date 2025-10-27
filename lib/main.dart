@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
                       color: Colors.yellow,
                       shape: BoxShape.circle,
                       image: DecorationImage(
-                        image: Image.asset("assets/images/cungpruy.jpg"),
+                        image: AssetImage("assets/images/cungpruy.jpg"),
                       ),
                       border: Border.all(
                         color: Colors.brown,
